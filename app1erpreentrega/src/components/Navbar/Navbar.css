@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+
+
+.botonesHeader {
+    margin-left: 120px;
+}
+
+.botonInicio,
+.botonRegulable,
+.botonFija {
+    margin-right: 60px;
+}
+
+.botonInicio,
+.botonRegulable,
+.botonFija,
+.botonEspirales {
+    padding: 10px;
+    color: #447CDD;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.botonesHeader button:hover {
+    background-color: #447CDD;
+    color: white;
+}
