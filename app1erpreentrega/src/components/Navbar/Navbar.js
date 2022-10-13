@@ -1,16 +1,18 @@
-import '/Users/VERONICA/Desktop/Coder Rami/React JS/Primer preentrega/app1erpreentrega/src/components/Navbar/Navbar'
-
+import './NavBar.css';
+import logo from './assets'
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
         <nav className='header'>
-            <h1>Guitarras</h1>
+            <Link  to={'/'}><img  className='logo' src={logo} alt='logo' /></Link>
+            
             <div className='botonesHeader'>
-                <button className='botonInicio'> Inicio</button>
-                <button className='botonRegulable'> Gibson</button>
-                <button className='botonFija'> Fender</button>
-                <button className='botonEspirales'> Custom Shop</button>
+                <Link  to={'/'} className='botonInicio'> Inicio</Link>
+                <Link  to={'/category/strato'} className='botonStrato'> Stratocaster</Link>
+                <Link  to={'/category/teleca'} className='botonTeleca'> Telecaster</Link>
+                <Link  to={'/category/jaguar'} className='botonJaguar'> Jaguar </Link>
             </div>
             <CartWidget />
         </nav>

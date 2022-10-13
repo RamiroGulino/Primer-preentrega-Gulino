@@ -11,15 +11,15 @@
 }
 
 .botonInicio,
-.botonRegulable,
-.botonFija {
+.botonTeleca,
+.botonStrato {
     margin-right: 60px;
 }
 
 .botonInicio,
-.botonRegulable,
-.botonFija,
-.botonEspirales {
+.botonTeleca,
+.botonStrato,
+.botonJaguar {
     padding: 10px;
     color: #447CDD;
     font-size: 18px;
