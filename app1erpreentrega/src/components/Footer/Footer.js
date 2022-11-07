@@ -1,5 +1,4 @@
 import './Footer.css'
-import logo from  "../NavBar/logo.svg.png"
 import { Link } from 'react-router-dom'
 
 
@@ -12,21 +11,19 @@ const Footer = () => {
 
                     <h2 className='titulo1'> Nosotros </h2>
 
-                    <p className='texto'> Nuestra Empresa desde hace mas de 12 años se dedica a la comercialización de los mas diversos productos destinados a Iluminación decorativa, profesional y comercial. Así mismo ofrecemos nuestro servicio de asesoramiento y asistencia técnica al Profesional.</p>
+                    <p className='texto'> </p>
 
                 </div>
-                <div className=' col-4 justify-center align-center'>
-                <Link id="item" to = '/'> <img className='logo'  src={logo} /> </Link>
-                </div>
+               
                 <div className=' col-4 justify-center align-center' id='footerDer'> 
                     <h2 className='textoDerecha'>Contactanos</h2>
-                    <p className='textoDerecha'>Uruguay 1019 – C1016ACA <br></br>
+                    <p className='textoDerecha'>Avenida de mayp 2343 <br></br>
 
                         Ciudad Autónoma de Buenos Aires<br></br>
 
-                        Telefonos: 4811-0207 | 4816-2392<br></br>
+                        Villa adelina<br></br>
 
-                        ventas@imageniluminacion.com</p>
+                        </p>
                 </div>
                 <div></div>
             </div>
